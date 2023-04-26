@@ -1,0 +1,59 @@
+body, html {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    background: rgb(0, 195, 255);
+    color: white;
+}
+
+header h1, nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    padding-top: 10px;
+}
+
+header nav ul li {
+    padding: 0 5px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+    margin: 25px 15%;
+}
+
+section h1 {
+    color: rgb(0, 195, 255);
+}
+
+.contact ul li {
+    list-style-type: none;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li a {
+    color: rgb(0, 195, 255);
+}
